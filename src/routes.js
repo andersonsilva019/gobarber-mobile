@@ -11,7 +11,10 @@ const AppStack = createStackNavigator();
 export default function Routes() {
   return (
     <NavigationContainer>
-      <AppStack.Navigator>
+      <AppStack.Navigator
+        headerMode="none"
+
+      >
         <AppStack.Screen name="SigIn" component={SignIn} />
         <AppStack.Screen name="SigUp" component={SignUp} />
       </AppStack.Navigator>

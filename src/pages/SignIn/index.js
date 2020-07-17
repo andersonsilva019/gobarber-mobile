@@ -1,10 +1,14 @@
 import React from 'react';
 import { View, Text } from 'react-native';
-
+import Background from '../../components/Background';
 // import { Container } from './styles';
 
 const SignIn = () => {
-  return <View style={{ flex: 1, backgroundColor: '#651FFF' }} />;
+  return (
+    <Background>
+      <Text>SigIn</Text>
+    </Background>
+  );
 }
 
 export default SignIn;
